@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:mysql://db:3306/crud_demo?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+  mybatis:
+    configuration:
+      map-underscore-to-camel-case: true
+    mapper-locations: classpath:mapper/*.xml
+
+server:
+  port: 8081  # ✅ Docker에서는 8081 포트 사용
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    com.example.crud: DEBUG
