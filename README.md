@@ -16,27 +16,6 @@
 
 ---
 
-## 📁 프로젝트 구조
-crud-demo
-├── src
-│   ├── main
-│   │   ├── java/com/example/crud
-│   │   │   ├── controller
-│   │   │   ├── entity
-│   │   │   ├── mapper
-│   │   │   ├── repository
-│   │   │   └── service
-│   └── resources
-│       ├── application-local.yaml
-│       ├── application-docker.yaml
-│       └── mapper
-├── Dockerfile
-├── docker-compose.yaml
-├── build.gradle
-└── README.md
-
----
-
 ## 🚀 실행 방법
 
 ### ✅ 로컬 실행
