@@ -16,13 +16,3 @@
 
 ---
 
-## 🚀 실행 방법
-
-### ✅ 로컬 실행
-
-```bash
-# MySQL 실행 (Mac 기준)
-brew services start mysql
-
-# IntelliJ에서 실행 (application-local.yaml 사용)
-./gradlew bootRun
