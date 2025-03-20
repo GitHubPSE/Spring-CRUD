@@ -4,15 +4,4 @@
 **Docker**를 이용한 배포 및 **로컬 실행**, **API 테스트(Postman)**까지 전 과정을 다룹니다.
 
 ---
-
-## 📌 주요 기술 스택
-- Java 17
-- Spring Boot 3
-- JPA + MyBatis
-- MySQL
-- Docker, Docker Compose
-- Gradle
-- Postman (API 테스트)
-
----
-
+https://www.notion.so/Spring-Boot-CRUD-Docker-MySql-19f94cf49d51801192f7ef6addf18f16?pvs=4
